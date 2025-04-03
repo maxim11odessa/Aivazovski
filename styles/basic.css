@@ -3,6 +3,7 @@
 }
 
 body {
+    color: var(--color-main-black);
     margin: 0;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
@@ -29,8 +30,14 @@ a {
     padding: 0 10px;
 }
 
-h1, p {
+h1,
+p {
     margin: 0;
+}
+
+.divider {
+    border-top: 1px solid var(--font-color-grey);
+    /* border: none; */
 }
 
 @media (max-width: 480px) {

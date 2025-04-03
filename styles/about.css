@@ -1,0 +1,33 @@
+.about {
+    background-color: var(--bg-main-grey);
+    padding: 60px 0 100px 0;
+    text-align: center;
+    /* margin: 0 auto; */
+}
+
+.about-title {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 0 40px 0;
+}
+.about-subtitle-ru, .about-subtitle-en, .about-description-ru, .about-description-en {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about-description-ru, .about-description-en {
+    text-align: justify;
+}
+
+.about-divider {
+    width: min(420px, 100%);
+    margin: 18px auto 0;
+}
+
+@media (max-width: 480px) {
+    .about-subtitle-ru, .about-subtitle-en, .about-description-ru, .about-description-en {
+        font-size: 14px;
+    }
+}
+
+
