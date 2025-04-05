@@ -38,6 +38,40 @@
             <hr class="divider">
         </div>
     </header>
+
+    <div class="mobile-navigation">
+        <label for="toggler-id" class="mobile-navigation-burger">
+            <img src="assets/svg/Burger_button.svg" alt="Mobile menu">
+        </label>
+        
+        <input type="checkbox" id="toggler-id" class="mobile-navigation-toggler">
+        
+        <nav class="mobile-navigation-nav" aria-label="mob header navigation">
+            <ul class="mobile-navigation-nav-list" aria-label="mob header navigation list">
+                <li>
+                    <a href="#home-id" class="mobile-navigation-nav-link" aria-label="mob link to home">Home</a>
+                </li>
+                <li>
+                    <a href="#about-id" class="mobile-navigation-nav-link" aria-label="mob link to about">About</a>
+                </li>
+                <li>
+                    <a href="#history-id" class="mobile-navigation-nav-link" aria-label="mob link to History">History</a>
+                </li>
+                <li>
+                    <a href="#portfolio-id" class="mobile-navigation-nav-link" aria-label="mob link to Portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contacts-id" class="mobile-navigation-nav-link" aria-label="mob link to Contacts">Contacts</a>
+                </li>
+            </ul>
+
+            <label for="toggler-id" class="mobile-navigation-close-btn">
+                <img src="assets/svg/close_button.svg" alt="Mobile menu">
+            </label>
+        </nav>
+
+    </div>
+
     <main aria-label="main">
         <section class="home" aria-label="main section" id="home-id">
             <div class="container">
@@ -76,20 +110,13 @@
         <section class="portfolio-section" id="portfolio-id">
             <div class="container">
                 <h2 class="portfolio-title">Portfolio</h2>
-
-                <img class="portfolio-img"
-                    src="assets/webp/Зимний обоз в пути (картина Ивана Айвазовского, 1857) 1.webp"
-                    alt="Картина Зимний обоз">
+                <img class="portfolio-img" src="assets/webp/Зимний обоз в пути (картина Ивана Айвазовского, 1857) 1.webp" alt="Картина Зимний обоз">
                 <p class="portfolio-subtitle">Зимний обоз в пути, 1857 г. | Winter wagon train on the way, 1857</p>
-
                 <img class="portfolio-img" src="assets/webp/Айвазовский_Радуга_1873 1.webp" alt="Картина Радуга">
                 <p class="portfolio-subtitle">Радуга, 1873 г. | Rainbow, 1873</p>
-
-                <img class="portfolio-img portfolio-img-last" src="assets/webp/неаполитанский_залив_утром_1893 1.webp"
-                    alt="Картина 'Неополитанский залив утром">
+                <img class="portfolio-img portfolio-img-last" src="assets/webp/неаполитанский_залив_утром_1893 1.webp" alt="Картина 'Неополитанский залив утром">
                 <p class="portfolio-subtitle portfolio-subtitle-last">Неаполитанский залив утром, 1893 г. | Gulf of
-                    Naples in the morning, 1893
-                </p>
+                    Naples in the morning, 1893</p>
             </div>
         </section>
     </main>

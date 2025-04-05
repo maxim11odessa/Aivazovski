@@ -40,7 +40,7 @@
     font-size: 16px;
     font-weight: 500;
     margin: 0 auto;
-    color: #828282;
+    color: var(--font-color-grey);
 }
 
 @media (max-width: 480px) {
